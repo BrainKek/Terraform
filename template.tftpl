@@ -1,0 +1,3 @@
+%{ for i, num in vmnumber ~}
+${num}: ${dns_name[i]} ${ip_addr[i]} ${pass[i]}
+%{ endfor ~}
